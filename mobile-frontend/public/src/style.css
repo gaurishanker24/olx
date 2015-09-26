@@ -1,0 +1,35 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 900px;
+    }
+}
+@media (min-width: 992px)
+.container {
+  /* width: 970px; */
+}
+@media (min-width: 768px)
+.container {
+  width: 750px;
+}
+
+legend {
+  text-align: center;
+  border-bottom: 1px solid #00E6E6;
+  color: darkblue;
+}
+.form-control {
+    border: 1px solid #00E6E6;
+}
+.navbar-default {
+  border-bottom: 3px solid #00E6E6;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(#E6E6E6, #ffffff, #E6E6E6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E6E6E6, #ffffff, #E6E6E6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E6E6E6, #ffffff, #E6E6E6); /* For Firefox 3.6 to 15 */
+  background: -ms-linear-gradient(#E6E6E6, #ffffff, #E6E6E6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E6E6E6, #ffffff, #E6E6E6);
+}
+.map-canvas { height: 400px; }
+body {
+    color: darkblue;
+}

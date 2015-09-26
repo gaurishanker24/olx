@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="OlxModule">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Olx - ad</title>
+		<base href="/" />
+	</head>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="lib/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.css"></link>
+    <link rel="stylesheet" href="src/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="src/style.css"></link>
+	<body>
+		<div class="container">
+			<div>
+				<!--Navigation Bar-->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						  <a class="navbar-brand" href="#">Olx</a>
+						</div>
+					</div>
+				</nav>
+			</div>
+            <!--Space to render views-->
+            <div class="col-sm-12" ng-view></div>
+		</div>
+        <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+        <script type="text/javascript" src="lib/angular-route/angular-route.min.js"></script>
+        <script type="text/javascript" src="lib/angular-resource/angular-resource.min.js"></script>
+        <script type="text/javascript" src="lib/angular-ui-event/dist/event.min.js"></script>
+        <script type="text/javascript" src="lib/angular-ui-map/ui-map.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=onGoogleReady"></script>
+        <script type="text/javascript" src="src/app.js"></script>
+        <script type="text/javascript" src="src/controller.js"></script>
+        <script type="text/javascript" src="src/directives.js"></script>
+    </body>
+</html>
